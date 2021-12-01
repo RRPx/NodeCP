@@ -18,7 +18,7 @@ MongoClient.connect(
   },
   (error, client) => {
     if (error) {
-      return console.log('Unable to connect to database!')
+      return console.log('Unable to connect to database!!')
     }
 
     const db = client.db(databaseName)
