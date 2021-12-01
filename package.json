@@ -6,14 +6,17 @@
   "dependencies": {
     "mongodb": "^3.7.3",
     "mongoose": "^6.0.13",
-    "nodemon": "^2.0.15",
     "validator": "^13.7.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node mongodb.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
 }
